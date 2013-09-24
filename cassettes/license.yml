@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://github.com:443/cv/tv/blob/master/LICENSE.txt
+    uri: https://github.com/cv/tv/blob/master/LICENSE.txt
     body:
       encoding: US-ASCII
       string: ''
@@ -18,10 +18,8 @@ http_interactions:
     headers:
       server:
       - GitHub.com
-      date:
-      - Tue, 04 Jun 2013 22:41:22 GMT
       content-type:
-      - text/html
+      - text/html; charset=utf-8
       content-length:
       - '264'
       connection:
